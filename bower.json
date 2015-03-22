@@ -1,0 +1,20 @@
+{
+  "name": "bash-args",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ileri/bash-args",
+  "authors": [
+    "Malte-Maurice Dreyer <dreyer.maltem@gmail.com>"
+  ],
+  "main": "bash-args.js",
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
