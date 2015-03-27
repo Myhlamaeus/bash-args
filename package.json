@@ -19,7 +19,7 @@
     "url": "https://github.com/not-naught/bash-args.git"
   },
   "scripts": {
-    "prepublish": "grunt build:cjs",
+    "prepublish": "gulp build",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
