@@ -1,6 +1,6 @@
 {
   "name": "bash-args",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Malte-Maurice Dreyer <dreyer.maltem@gmail.com>",
   "bugs": {
     "url": "https://github.com/not-naught/bash-args/issues"
