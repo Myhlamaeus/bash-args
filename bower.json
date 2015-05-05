@@ -1,5 +1,6 @@
 {
   "name": "bash-args",
+  "description": "Escape, unescape and stringify bash arguments",
   "version": "0.1.0",
   "homepage": "https://github.com/ileri/bash-args",
   "authors": [
