@@ -7,8 +7,10 @@
   },
   "devDependencies": {
     "babel": "^4.4.6",
+    "chai": "^2.3.0",
     "gulp": "^3.8.11",
     "gulp-babel": "^4.0.0",
+    "gulp-mocha": "^2.0.1",
     "gulp-sourcemaps": "^1.5.1"
   },
   "homepage": "https://github.com/not-naught/bash-args",
