@@ -1,9 +1,11 @@
 var gulp = require('gulp')
 var babel = require('gulp-babel')
 var sourcemaps = require('gulp-sourcemaps')
+var path = require('path')
+var main = path.basename(require('./package.json').main)
 
 gulp.task('build', function () {
-  return gulp.src('{bash-args,lib/*}.js')
+  return gulp.src('{' + main + ',lib/*.js}')
     .pipe(sourcemaps.init())
       .pipe(babel())
     .pipe(sourcemaps.write('../maps'))
