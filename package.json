@@ -1,7 +1,7 @@
 {
   "name": "bash-args",
   "description": "Escape, unescape and stringify bash arguments",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Malte-Maurice Dreyer <dreyer.maltem@gmail.com>",
   "bugs": {
     "url": "https://github.com/not-naught/bash-args/issues"
