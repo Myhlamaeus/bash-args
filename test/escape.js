@@ -37,9 +37,9 @@ describe('escape', function () {
   })
 
   it('should return \'\' for null, undefined, and the empty string', function () {
-    expect(escape(null)).to.be.equal(emptyString)
-    expect(escape(undefined)).to.be.equal(emptyString)
-    expect(escape('')).to.be.equal(emptyString)
+    expect(escape(null)).to.equal(emptyString)
+    expect(escape(undefined)).to.equal(emptyString)
+    expect(escape('')).to.equal(emptyString)
   })
 
   it('should not escape letters', function () {
