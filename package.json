@@ -1,6 +1,6 @@
 {
   "name": "bash-args",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Escape, unescape and stringify bash arguments",
   "homepage": "https://github.com/Myhlamaeus/bash-args",
   "author": {
