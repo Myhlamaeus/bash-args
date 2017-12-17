@@ -1,6 +1,6 @@
 {
   "name": "bash-args",
-  "version": "0.0.0",
+  "version": "0.2.1",
   "description": "Escape, unescape and stringify bash arguments",
   "homepage": "https://github.com/Myhlamaeus/bash-args",
   "author": {
@@ -8,9 +8,7 @@
     "email": "dreyer.maltem+dev@gmail.com",
     "url": "https://github.com/Myhlamaeus"
   },
-  "files": [
-    "lib"
-  ],
+  "files": ["lib"],
   "main": "lib/index.js",
   "keywords": [
     "bash",
@@ -34,6 +32,9 @@
     "jest": "^21.0.0",
     "jest-cli": "^21.0.0"
   },
+  "engines": {
+    "node": ">=6"
+  },
   "scripts": {
     "prepublish": "nsp check",
     "pretest": "eslint .",
@@ -41,20 +42,11 @@
     "test": "jest"
   },
   "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ],
-    "*.json": [
-      "prettier --write",
-      "git add"
-    ]
+    "*.js": ["eslint --fix", "git add"],
+    "*.json": ["prettier --write", "git add"]
   },
   "eslintConfig": {
-    "extends": [
-      "xo",
-      "prettier"
-    ],
+    "extends": ["xo", "prettier"],
     "env": {
       "jest": true,
       "node": true
@@ -68,9 +60,7 @@
         }
       ]
     },
-    "plugins": [
-      "prettier"
-    ]
+    "plugins": ["prettier"]
   },
   "repository": "git@github.com:Myhlamaeus/bash-args.git",
   "jest": {
